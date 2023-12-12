@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blotter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="logo-box">
+    <img src="sk.jpeg" class="sk">
+  </div>
+    <h3 class="text-bg-secondary p-3"> Blotter  </h3>
+    
+    
+    <div class="container">
+        <form action="/action_page.php">
+       
+            <h2>Complainant</h2>
+            <hr class="hr1">
+            
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" name="lastname" placeholder="Your last name">
+      
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="firstname" placeholder="Your first name">
+          
+          <label for="middle_name">Middle Name:</label>
+          <input type="text" id="middle_name" name="middlename" placeholder="Your middle name">
+          
+          <label for="full_address">Full Address:</label>
+          <input type="text" id="full_address" name="address" placeholder="Your full address">
+      
+         <label for="subject">Complain Statement:</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <BR> <BR>
+          <h2>Evidence (If Any):</h2>
+          <hr class="hr1">
+
+          <label for="myfile">Select files:</label>
+          <input type="file" id="myfile" name="myfile" multiple><br><br>
+      
+          <input type="submit" class="btn btn-danger" value="Report">
+          &nbsp; &nbsp; 
+          
+        </form>
+      </div>
+      
+      <br><BR>
+
+      <div class="container">
+        <form action="/action_page.php">
+
+      <h2>Defender</h2>
+            <hr class="hr1">
+
+         <label for="last_name">Last Name:</label>
+         <input type="text" id="last_name" name="lastname" placeholder="Last name">
+
+         <label for="first_name">First Name:</label>
+         <input type="text" id="first_name" name="firstname" placeholder="First name">
+    
+         <label for="middle_name">Last Name:</label>  
+         <input type="text" id="lname" name="lastname" placeholder="Middle name..">
+
+         <label for="subject">Statement:</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" class="btn btn-danger" value="Submit">
+          &nbsp; &nbsp; 
+          <span><a class="btn btn-outline-primary btn-l" href="index.html">Home</a></span>
+         
+        
+
+        </form>
+        </div>
+
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+     crossorigin="anonymous"></script>
+</body>
+</html>
